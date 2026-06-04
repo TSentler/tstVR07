@@ -438,7 +438,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273857102}
   m_Enabled: 1
-  serializedVersion: 12
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
@@ -490,7 +490,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -504,7 +504,7 @@ Transform:
   m_GameObject: {fileID: 273857102}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 5.76, y: 2.48, z: -4.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -571,6 +571,63 @@ Transform:
   - {fileID: 148773666}
   m_Father: {fileID: 995898498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &408010197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.753
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.62
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_lozka
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c671d6720fcf184bb403793e7a003c7, type: 3}
 --- !u!1 &827437862
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +695,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8f7f81aa66ed4a949b9ef8ee3da1440f, type: 2}
+  - {fileID: 2100000, guid: 1b0e83b1a3521df4c830615be6af95e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -679,7 +736,7 @@ Transform:
   m_GameObject: {fileID: 827437862}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0.51, z: -0}
   m_LocalScale: {x: 2, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -860,6 +917,177 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!1001 &1638416998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.509999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.055246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_kotel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60fb4186986bf0a4db165de177a24189, type: 3}
+--- !u!1001 &1705960419
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.64
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5100011
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_table
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+--- !u!1001 &2144047611
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.147
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5100011
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_table (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ddcdad520832d334e9fec78a0b65c930, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -868,3 +1096,7 @@ SceneRoots:
   - {fileID: 827437866}
   - {fileID: 105218038}
   - {fileID: 995898498}
+  - {fileID: 1705960419}
+  - {fileID: 2144047611}
+  - {fileID: 1638416998}
+  - {fileID: 408010197}
