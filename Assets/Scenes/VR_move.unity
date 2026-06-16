@@ -591,7 +591,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273857102}
   m_Enabled: 1
-  serializedVersion: 12
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
@@ -643,7 +643,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1156,6 +1156,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &511839686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.7944684
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000007213749
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.6799674
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_klymba
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f500ee6260349e4cb494d9621ea49c2, type: 3}
 --- !u!114 &518257303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1481,6 +1538,120 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &950720606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.491204
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000023448592
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.447212
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+--- !u!1001 &955781500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.0427823
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000000341349
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.391767
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
 --- !u!1 &964023028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1717,63 @@ MonoBehaviour:
   m_BodyPositionEvaluatorObject: {fileID: 0}
   m_ConstrainedBodyManipulatorObject: {fileID: 0}
   m_UseCharacterControllerIfExists: 1
+--- !u!1001 &973169371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000067692554
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.8594956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
 --- !u!1 &995898495
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,6 +1880,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: c3ca6ed7-3d25-44a2-b1d8-5be4eb699370
+--- !u!1001 &1075924422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.1693625
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000002193778
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.7245398
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
 --- !u!114 &1092154029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1824,6 +2109,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: 44441ad6-5762-466d-ad54-aa44fcd61a5c
+--- !u!1001 &1227535752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.607019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000005865868
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.667362
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
 --- !u!1001 &1247165174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1918,6 +2260,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: e6005f29-e4c1-4f3b-8bf7-3a28bab5ca9c
+--- !u!1001 &1418147309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9218266
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000511719
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.466052
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
 --- !u!114 &1424780044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2065,6 +2464,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: 83a7af0b-87e3-42c3-a909-95fbf8091e4f
+--- !u!1001 &1547384511
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.7586246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000004524586
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.321738
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
 --- !u!114 &1570463765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2396,7 +2852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1942734594
 Transform:
   m_ObjectHideFlags: 0
@@ -2525,6 +2981,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: 9693e25f-8a4f-4aed-842f-3961243c69a1
+--- !u!1001 &2059637744
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.8439116
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000071789736
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.658023
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
+      propertyPath: m_Name
+      value: karmackih_VR_svetok (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 887f74624de34f3469706e1cd96deb37, type: 3}
 --- !u!114 &2134458747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2548,3 +3061,12 @@ SceneRoots:
   - {fileID: 105218038}
   - {fileID: 995898498}
   - {fileID: 291654945}
+  - {fileID: 511839686}
+  - {fileID: 1418147309}
+  - {fileID: 973169371}
+  - {fileID: 1547384511}
+  - {fileID: 1075924422}
+  - {fileID: 950720606}
+  - {fileID: 2059637744}
+  - {fileID: 1227535752}
+  - {fileID: 955781500}
