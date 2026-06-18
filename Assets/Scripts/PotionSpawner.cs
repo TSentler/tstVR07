@@ -4,11 +4,14 @@ public class PotionSpawner : MonoBehaviour
 {
     public Transform SpawnPoint;
     public float Speed = 5f;
+    public GameObject FX;
+
 
    public void Spawn(GameObject potion)
     {
         GameObject newPotion = Instantiate(potion, SpawnPoint.position, Quaternion.identity);
         newPotion.GetComponentInChildren<Rigidbody>().AddForce(new Vector3(0, 1, 1)*Speed,ForceMode.Impulse);
         //Обьект создаётся сврху^                                       тут была --> 15
+        Instantiate(FX, SpawnPoint.position, Quaternion.identity);
     }
 }
